@@ -1,5 +1,9 @@
 # ENVI 光谱数据处理器
 
+**Language / 语言**:
+[![English](https://img.shields.io/badge/Language-English-blue)](README.md)
+[![中文](https://img.shields.io/badge/语言-中文-red)](README中文.md)
+
 用于处理 ENVI ASCII 绘图文件（.txt）并将特定光谱数据列提取为 CSV 格式的 Python 脚本，便于分析和可视化。
 
 ## 描述

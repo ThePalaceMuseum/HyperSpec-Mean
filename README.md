@@ -1,5 +1,9 @@
 # ENVI Spectral Data Processor
 
+**Language / 语言**:
+[![English](https://img.shields.io/badge/Language-English-blue)](README.md)
+[![中文](https://img.shields.io/badge/语言-中文-red)](README中文.md)
+
 A Python script for processing ENVI ASCII Plot Files (.txt) and extracting specific spectral data columns into CSV format for analysis and visualization.
 
 ## Description
