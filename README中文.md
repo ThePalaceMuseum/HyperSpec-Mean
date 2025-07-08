@@ -1,6 +1,6 @@
 # ENVI 光谱数据处理器
 
-**Language / 语言**:
+
 [![English](https://img.shields.io/badge/Language-English-blue)](README.md)
 [![中文](https://img.shields.io/badge/语言-中文-red)](README中文.md)
 
