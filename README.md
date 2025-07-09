@@ -42,7 +42,7 @@ your_workspace/
 
 Each .txt file must follow this exact structure:
 
-**Lines 1-7: Header Information (skipped)**
+**Lines 1–7: Header Information (skipped)**
 ```
 ENVI ASCII Plot File [Mon Jul 07 14:50:29 2025]
 Column 1: Wavelength
@@ -119,15 +119,15 @@ CSV files have been saved in the current directory: C:\Users\YourName\Desktop\sp
 ## Input File Format Details
 
 ### Header Structure (Lines 1-7)
-| Line | Content | Purpose |
-|------|---------|---------|
-| 1 | `ENVI ASCII Plot File [timestamp]` | File type identifier |
-| 2 | `Column 1: Wavelength` | Column 1 description |
-| 3 | `Column 2: Min: ROI #...` | Column 2 description |
-| 4 | `Column 3: Mean-StdDev: ROI #...` | Column 3 description |
-| 5 | `Column 4: Mean: ROI #...` | Column 4 description (extracted) |
-| 6 | `Column 5: Mean+StdDev: ROI #...` | Column 5 description |
-| 7 | `Column 6: Max: ROI #...` | Column 6 description |
+| Line | Content                            | Purpose                          |
+|------|------------------------------------|----------------------------------|
+| 1    | `ENVI ASCII Plot File [timestamp]` | File type identifier             |
+| 2    | `Column 1: Wavelength`             | Column 1 description             |
+| 3    | `Column 2: Min: ROI #...`          | Column 2 description             |
+| 4    | `Column 3: Mean-StdDev: ROI #...`  | Column 3 description             |
+| 5    | `Column 4: Mean: ROI #...`         | Column 4 description (extracted) |
+| 6    | `Column 5: Mean+StdDev: ROI #...`  | Column 5 description             |
+| 7    | `Column 6: Max: ROI #...`          | Column 6 description             |
 
 ### Data Structure (Line 8+)
 - **Format**: 6 columns separated by spaces
@@ -186,12 +186,12 @@ The script includes comprehensive error handling for:
 
 ### Common Issues and Solutions
 
-| Issue | Error Message | Solution |
-|-------|---------------|----------|
-| No .txt files | `No .txt files found in the current directory` | Add .txt files to the directory or move script to correct location |
-| Invalid data format | `Warning: Could not parse line X` | Check file format matches specifications |
-| Insufficient columns | `Warning: Line X has fewer than 4 columns` | Verify data integrity |
-| File access issues | `Error processing filename.txt: [details]` | Check file permissions |
+| Issue                | Error Message                                  | Solution                                                           |
+|----------------------|------------------------------------------------|--------------------------------------------------------------------|
+| No .txt files        | `No .txt files found in the current directory` | Add .txt files to the directory or move script to correct location |
+| Invalid data format  | `Warning: Could not parse line X`              | Check file format matches specifications                           |
+| Insufficient columns | `Warning: Line X has fewer than 4 columns`     | Verify data integrity                                              |
+| File access issues   | `Error processing filename.txt: [details]`     | Check file permissions                                             |
 
 ### Data Validation
 - **Empty lines**: Automatically skipped
